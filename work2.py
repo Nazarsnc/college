@@ -1,7 +1,7 @@
 sn = "Синиця"
 n = "Назар"
 a = 16
-fn = sn + " " + n
+fn = f"{sn} {n}"
 list = [fn]
 
 if type(sn) == type(n):
