@@ -6,10 +6,10 @@ list = [fn,a]
 
 if type(sn) == type(n):
     print(f"type: {type(sn)}")
-    print(list[0])
+    print(f"FullName: {list[0]}")
     if type(a) == int:
         print(f"type: {type(a)}")
-        print(list[1])
+        print(f"Age: {list[1]}")
     else:
         print("Помилка")
 else:
